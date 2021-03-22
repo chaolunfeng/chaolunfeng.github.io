@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React, { Component } from 'react';
 
 class Header extends Component {
@@ -16,19 +17,25 @@ class Header extends Component {
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+            <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}  className="current"><a className="smoothscroll" href="#home">Home</a></motion.li>
+	         <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} ><a className="smoothscroll" href="#resume">Resume</a></motion.li>
+            <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} ><a className="smoothscroll" href="#portfolio">Works</a></motion.li>
+            <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} ><a className="smoothscroll" href="#contact">Contact</a></motion.li>
          </ul>
 
       </nav>
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">I'm Chaolun Feng.</h1>
-            <h2>{greeting}</h2>
-            <h3>{description}</h3>
+            <motion.div whileHover={{ scale: 1.15 }} whileTap={{ scale: 0.85 }} >
+               <h1 className="responsive-headline">I'm Chaolun Feng.</h1>
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
+               <h2>{greeting}</h2>
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} >
+               <h3>{description}</h3>
+            </motion.div>
             <hr />
          </div>
       </div>
