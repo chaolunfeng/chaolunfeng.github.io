@@ -20,14 +20,14 @@ class Header extends Component {
             <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}  className="current"><a className="smoothscroll" href="#home">Home</a></motion.li>
 	         <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} ><a className="smoothscroll" href="#resume">Resume</a></motion.li>
             <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} ><a className="smoothscroll" href="#portfolio">Works</a></motion.li>
-            <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} ><a className="smoothscroll" href="#contact">Contact</a></motion.li>
+            <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} ><a className="smoothscroll" href="#about">Contact</a></motion.li>
          </ul>
 
       </nav>
 
       <div className="row banner">
          <div className="banner-text">
-            <motion.div whileHover={{ scale: 1.15 }} whileTap={{ scale: 0.85 }} >
+            <motion.div whileHover={{ scale: 1.15 }} whileTap={{ scale: 0.9 }} >
                <h1 className="responsive-headline">I'm Chaolun Feng.</h1>
             </motion.div>
             <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
