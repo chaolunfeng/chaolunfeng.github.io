@@ -30,7 +30,7 @@ class Contact extends Component {
                 <br />
                 <br />
                 <p>
-                  <a href={""} className="button"><i className="fa fa-download"></i>Download my Resume</a>
+                  <a href={"/Resume-Chaolun Feng.pdf"} className="button"><i className="fa fa-download"></i>Download my Resume</a>
                 </p>
               </div>
             </div>

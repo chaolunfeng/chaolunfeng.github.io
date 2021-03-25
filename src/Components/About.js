@@ -15,7 +15,7 @@ class About extends Component {
               <div className="twelve columns">
                 <div key="UW"><h3>University of Washington</h3>
                   <p className="info">Bachlor of Art <span>&bull;</span><em className="date">Winter 2022</em></p>
-                  <p></p></div>
+                  <p>GPA: 3.78/4.00</p></div>
               </div>
             </div>
           </div>
