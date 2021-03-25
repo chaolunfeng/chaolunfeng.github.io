@@ -4,40 +4,93 @@ class About extends Component {
   render() {
 
     return (
-      <section id="about">
-      <div className="row">
-         <div className="three columns">
-         </div>
-         <div className="nine columns main-col">
-            <h2>Contact Details</h2>
-            <div className="row">
-               <div className="columns contact-details">
-                    {/* <h2>Contact Details</h2> */}
-                    <p className="address">
-						    <span><b>Chaolun Feng</b></span><br />
-						    <span>
-                          <b>
-						        Seattle WA, 98075
-                          </b>
-                      </span><br />
-						    <span><b>Phone: </b><a href="tel: 315-883-9276">3158839276</a></span><br />
-                      <span><b>Email: </b><a href="mailto: chaolunfeng@gmail.com">chaolunfeng@gmail.com</a></span><br />
-                      <span><b>Github: </b><a href="https://github.com/chaolunfeng">github.com/chaolunfeng</a></span><br />
-                      <span><b>LinkedIn: </b><a href="https://www.linkedin.com/in/chaolunfeng">linkedin.com/in/chaolunfeng</a></span><br />
+      <section id="resume">
 
-					</p>
-               </div>
-               <div className="columns download">
-                  <br />
-                  <br />
-                  <p>
-                     <a href={""} className="button"><i className="fa fa-download"></i>Download my Resume</a>
-                  </p>
+      <div className="row education">
+         <div className="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+            <div className="row item">
+               <div className="twelve columns">
+               <div key="UW"><h3>University of Washington</h3>
+        <p className="info">Bachlor of Art <span>&bull;</span><em className="date">Winter 2022</em></p>
+        <p></p></div>
                </div>
             </div>
          </div>
       </div>
 
+
+      <div className="row work">
+
+         <div className="three columns header-col">
+            <h1><span>Project</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+         <div key="company"><h3>Personal Website</h3>
+            <p className="info">Side Project<span>&bull;</span> <em className="date">Feb 2021 - Present</em></p>
+            <p>Interactive personal website built by JavaScript and React.<br/>
+            Used Motion API for Header section hover and click animation effect.</p>
+        </div>
+        </div>
+    </div>
+
+
+
+      <div className="row skill">
+
+         <div className="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+
+
+                <div className="bars">
+				   <ul className="skills">
+                      <li >
+                    <span style={{width: "75%" }}className="bar-expand illustrator"></span>
+                    <em>Java</em>
+                    </li>
+					</ul>
+				</div>
+                <div className="bars">
+				   <ul className="skills">
+                      <li >
+                    <span style={{width: "75%" }}className="bar-expand illustrator"></span>
+                    <em>CSS</em>
+                    </li>
+					</ul>
+				</div>
+                <div className="bars">
+				   <ul className="skills">
+                      <li >
+                    <span style={{width: "70%" }}className="bar-expand illustrator"></span>
+                    <em>JavaScript/React</em>
+                    </li>
+					</ul>
+				</div>
+                <div className="bars">
+				   <ul className="skills">
+                      <li >
+                    <span style={{width: "60%" }}className="bar-expand illustrator"></span>
+                    <em>MySQL</em>
+                    </li>
+					</ul>
+				</div>
+                <div className="bars">
+				   <ul className="skills">
+                      <li >
+                    <span style={{width: "80%" }}className="bar-expand illustrator"></span>
+                    <em>Git</em>
+                    </li>
+					</ul>
+				</div>
+			</div>
+      </div>
    </section>
     );
   }

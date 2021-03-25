@@ -18,8 +18,8 @@ class Header extends Component {
 
          <ul id="nav" className="nav">
             <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}  className="current"><a className="smoothscroll" href="#home">Home</a></motion.li>
-	         <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} ><a className="smoothscroll" href="#resume">Resume</a></motion.li>
-            <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} ><a className="smoothscroll" href="#portfolio">Works</a></motion.li>
+	         <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} ><a className="smoothscroll" href="#resume">About</a></motion.li>
+            <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} ><a className="smoothscroll" href="#portfolio">Portfolio</a></motion.li>
             <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} ><a className="smoothscroll" href="#about">Contact</a></motion.li>
          </ul>
 
@@ -41,7 +41,7 @@ class Header extends Component {
       </div>
 
       <p className="scrolldown">
-         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+         <a className="smoothscroll" href="#resume"><i className="icon-down-circle"></i></a>
       </p>
 
    </header>

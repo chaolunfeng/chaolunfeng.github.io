@@ -1,14 +1,18 @@
 import './App.css';
 import Header from './Components/Header';
+import Contact from './Components/Contact';
 import About from './Components/About';
-import Resume from './Components/Resume';
+import Portfolio from './Components/Portfolio';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Resume />
       <About />
+      <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   );
 }
